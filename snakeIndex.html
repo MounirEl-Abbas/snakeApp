@@ -35,9 +35,24 @@
         background-color: red;
         border: 0.25vmin solid black;
       }
+      button {
+        position: absolute;
+        background-color: green;
+        padding: 4px 10px;
+        border: none;
+        border-radius: 2px;
+        top: 25px;
+        right: 25px;
+      }
+      button > a {
+        text-decoration: none;
+        font-family: monospace;
+        color: white;
+      }
     </style>
   </head>
   <body>
+    <button><a href="../gamesMainMenu/index.html">Main Menu</a></button>
     <div id="game-board"></div>
     <script src="game.js" defer type="module"></script>
   </body>
